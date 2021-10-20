@@ -1,4 +1,3 @@
-<script>
 function setTime()
 {
     var timestamp = document.getElementsByClassName('timestamp');
@@ -50,4 +49,3 @@ function setTime()
         dateofmatch[i].innerHTML = months[t.getMonth()] + ' ' + t.getDate() + ', ' + t.getFullYear() + "<br/>";
     }
 }
-</script>
